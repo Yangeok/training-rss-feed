@@ -1,10 +1,13 @@
+require('dotenv').config();
 const axios = require('axios');
 const platform = require('./platform');
 const yaml = require('js-yaml');
+const env = process.env;
 
 const url = platform => {
-  return `https://raw.githubusercontent.com/Yangeok/training-list/master/${platform}.yml`;
+  return `${env.URL}${platform}.yml`;
 };
+console.log(url(platform.youtube));
 const parseBlog = () => {
   const yamlData = async () => {
     const data = await axios.get(url(platform.blog));
