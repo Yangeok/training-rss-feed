@@ -16,9 +16,10 @@ module.exports = () => {
           console.error(`connection error:`, err);
         }
         console.log(
-          `> DB connected on uri ${env.MONGO_URI}${env.MONGO_DATABASE} ${
-            env.NODE_ENV
-          } environment`
+          `> Connected on
+ - URI: ${env.MONGO_URI}
+ - Database: ${env.MONGO_DATABASE.toUpperCase()} 
+ - Environment: ${env.NODE_ENV.toUpperCase()}`
         );
       }
     );
