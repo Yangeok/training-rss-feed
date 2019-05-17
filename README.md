@@ -2,10 +2,6 @@
 
 ## Todo
 
-- 유튜브 영상에 썸네일 추가하기
-
-  - https://img.youtube.com/vi/VIDEO_ID/3.jpg
-
 ## Endpoints
 
 `GET /blog`
