@@ -2,6 +2,13 @@
 
 ## Todo
 
+- 해외, 국내로 리스트를 4개로 만들기
+- 리스트에 sns링크 추가하기
+- 블로거 썸네일 이미지 가져오기
+- 피드 last updated 추가하기
+- rss 묶어서 opml 생성하기
+- opml은 db에 올려두기
+
 ## Endpoints
 
 `GET /blog`
