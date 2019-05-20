@@ -8,6 +8,7 @@
 - 피드 last updated 추가하기
 - rss 묶어서 opml 생성하기
 - opml은 db에 올려두기
+- 타입스크립트 리팩토링
 
 ## Endpoints
 
