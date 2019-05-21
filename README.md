@@ -54,4 +54,6 @@
 
 ## Summary
 
-![](https://res.cloudinary.com/yangeok/image/upload/v1554888938/11.jpg)
+[![](https://res.cloudinary.com/yangeok/image/upload/v1554888938/training-log/11.jpg)](https://res.cloudinary.com/yangeok/image/upload/v1554888938/training-log/11.jpg){: target="\_blank" }
+
+[![](https://res.cloudinary.com/yangeok/image/upload/v1558403801/portfolio/screencapture-training-front-netlify-2019-05-21-10_54_21.png)](https://res.cloudinary.com/yangeok/image/upload/v1558403801/portfolio/screencapture-training-front-netlify-2019-05-21-10_54_21.png){: target="\_blank" }
