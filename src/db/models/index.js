@@ -1,9 +1,9 @@
-require('dotenv').config({ path: __dirname });
+require('dotenv').config();
 const mongoose = require('mongoose');
 const env = process.env;
 
 module.exports = () => {
-  function connect() {
+  connect = () => {
     mongoose.connect(
       `${env.MONGO_URI}${env.MONGO_DATABASE}`,
       {
@@ -23,7 +23,7 @@ module.exports = () => {
         );
       }
     );
-  }
+  };
   connect();
   mongoose.connection.on('disconnected', connect);
 };

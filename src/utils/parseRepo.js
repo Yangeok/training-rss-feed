@@ -7,7 +7,6 @@ const env = process.env;
 const url = platform => {
   return `${env.URL}${platform}.yml`;
 };
-console.log(url(platform.youtube));
 const parseBlog = () => {
   const yamlData = async () => {
     const data = await axios.get(url(platform.blog));
