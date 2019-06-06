@@ -9,7 +9,7 @@ switch (env.NODE_ENV) {
     break;
 
   case 'production':
-    PORT = env.PORT || 80;
+    PORT = env.PORT || 3002;
     break;
 
   case 'test':
