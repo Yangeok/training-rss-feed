@@ -1,6 +1,4 @@
-const platform = {
+module.exports = {
   blog: 'blog',
   youtube: 'youtube'
 };
-
-module.exports = platform;

@@ -1,7 +1,6 @@
 const Parser = require('rss-parser');
 const parser = new Parser();
 const writeJsonFile = require('write-json-file');
-const platform = require('./platform');
 
 const eachFeed = async url => {
   const feed = await parser.parseURL(url);
@@ -43,4 +42,4 @@ const write = async (urls, filename) => {
 
 const feedFilename = filename => `src/db/${filename}.feed.json`;
 
-module.exports = { eachFeed, write, combineFeeds, feedFilename, platform };
+module.exports = { eachFeed, write, combineFeeds, feedFilename };

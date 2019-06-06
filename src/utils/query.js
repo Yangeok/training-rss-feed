@@ -6,7 +6,9 @@ const YoutubeFeeds = require('../db/models/youtubeFeeds');
 const { parseBlog, parseYoutube } = require('./parseRepo');
 const parseBlogFeeds = require('../db/blog.feed.json');
 const parseYoutubeFeeds = require('../db/youtube.feed.json');
-const { write, feedFilename, platform } = require('./rss');
+
+const { write, feedFilename } = require('./rss');
+const { blog, youtube } = require('./platform');
 
 exports.addBlogAuthors = async () => {
   const data = Blog.insertMany(await parseBlog, { ordered: false });
@@ -56,7 +58,7 @@ exports.addBlogFeedsSaveToFile = async () => {
       urls.push(tistoryRssAddress);
     }
   });
-  return write(urls, feedFilename(platform.blog));
+  return write(urls, feedFilename(blog));
 };
 
 exports.addBlogFeedsSaveToMongo = async () => {
@@ -93,7 +95,7 @@ exports.addYoutubeFeedsSaveToFile = async () => {
     }
   });
 
-  return write(urls, feedFilename(platform.youtube));
+  return write(urls, feedFilename(youtube));
 };
 
 exports.addYoutubeFeedsSaveToMongo = async () => {
