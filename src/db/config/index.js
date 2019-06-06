@@ -11,7 +11,7 @@ module.exports = {
     useFindAndModify: true
   },
   msg: `> Connected on
- - URI: ${isProd.toUpperCase()}
+ - URI: ${isProd}
  - Database: ${env.MONGO_DATABASE.toUpperCase()} 
  - Environment: ${env.NODE_ENV.toUpperCase()}`
 };

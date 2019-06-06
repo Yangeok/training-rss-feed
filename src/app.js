@@ -23,7 +23,8 @@ app
 
 // Connection
 const { PORT } = require('./utils/env');
-const db = require('./db/models');
+// const db = require('./db/models');
+const db = require('mongoose-init-config');
 app.listen(PORT, () => {
   console.log(`> Koa server is running on port ${PORT}`);
   db();
