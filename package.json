@@ -14,7 +14,7 @@
     "koa-logger": "^3.2.0",
     "koa-router": "^7.4.0",
     "koa2-cors": "^2.0.6",
-    "mongoose": "^5.5.0",
+    "mongoose": "^5.7.5",
     "mongoose-init-config": "^1.0.6",
     "mongoose-unique-validator": "^2.0.2",
     "nodemon": "^1.18.11",
