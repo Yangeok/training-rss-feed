@@ -17,7 +17,7 @@
     "mongoose": "^5.5.0",
     "mongoose-init-config": "^1.0.6",
     "mongoose-unique-validator": "^2.0.2",
-    "nodemon": "^1.18.11",
+    "nodemon": "^2.0.0",
     "rss-parser": "^3.7.0",
     "write-json-file": "^3.2.0",
     "write-yaml": "^1.0.0"
