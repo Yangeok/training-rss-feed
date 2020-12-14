@@ -12,7 +12,7 @@
     "koa-body": "^4.1.0",
     "koa-json": "^2.0.2",
     "koa-logger": "^3.2.0",
-    "koa-router": "^7.4.0",
+    "koa-router": "^10.0.0",
     "koa2-cors": "^2.0.6",
     "mongoose": "^5.5.0",
     "mongoose-init-config": "^1.0.6",
